@@ -3,3 +3,21 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.pagination {
+    direction: ltr;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.MuiPagination-ul > li {
+    padding: 10px;
+}

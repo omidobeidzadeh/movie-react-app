@@ -13,7 +13,11 @@ const SingleContent = ({
   vote_average,
 }) => {
   function generateDate() {
-    return moment(date, 'YYYY/MM/DD').locale('fa').format('YYYY/MMMM/DD')
+    if(date){
+      return moment(date).locale('fa').format('YYYY/MM/DD');
+    }else {
+      return 'نامشخص'
+    }
   }
   return (
     <div className="media">

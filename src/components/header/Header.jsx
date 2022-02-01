@@ -1,8 +1,19 @@
-import React from 'react';
-import './header.css';
+import React from "react";
+import "./header.css";
 
 const Header = () => {
-  return <span onClick={() => {return window.scroll(0, 0)}} className='header'>🎥 محیط جستجوی فیلم و سریال 🎬</span>;
+  return (
+    <>
+      <span
+        onClick={() => {
+          return window.scroll(0, 0);
+        }}
+        className="header"
+      >
+        🎥 نیازمند وی پی ان 🎬
+      </span>
+    </>
+  );
 };
 
 export default Header;
